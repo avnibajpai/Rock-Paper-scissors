@@ -140,7 +140,7 @@ def play_best_of_five():  # BEST OF FIVE GAME PLAY
 
 def get_user_choice():  # USER CHOICE
     global user
-    user = input("Enter rock, paper, or scissors(or 'exit' to quit)\n1").strip().lower()
+    user = input("Enter rock, paper, or scissors(or 'exit' to quit): ").strip().lower()
     return user
 
 
@@ -171,3 +171,4 @@ def decide(user, computer):
 
 if __name__ == "__main__":  # MAIN MENU
     menu()
+
